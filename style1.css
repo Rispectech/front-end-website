@@ -1,0 +1,175 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: 1.5rem;
+  color: #777;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00c496;
+}
+
+.u-align-center {
+  text-align: center;
+}
+
+.u-margin-bottom-big {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.contact {
+  margin-left: 20%;
+  height: 90rem;
+  width: 60%;
+  border-radius: 1rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 4rem;
+}
+
+.price-container .card {
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.price-card-body {
+  background-color: white;
+  align-items: center;
+  border: none;
+}
+.card1 {
+  background-color: #00c496;
+  color: white;
+  margin-left: 25%;
+  display: inline-block;
+  float: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+.card2 {
+  background-color: white;
+  color: #00c496;
+  float: center;
+  display: inline-block;
+  margin-top: 2rem;
+  text-align: center;
+}
+.card3 {
+  background-color: white;
+  color: #00c496;
+  margin-left: 25%;
+  width: 24%;
+  display: inline-block;
+  float: center;
+  text-align: center;
+}
+.card4 {
+  background-color: #00c496;
+  color: white;
+  float: center;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.contact__form {
+  width: 100%;
+  padding: 6rem;
+}
+
+.form__input {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: rgba(83, 103, 255, 0.3);
+  border-bottom: 1px solid rgba(83, 103, 255, 0.7);
+  border: none;
+  width: 100%;
+  border-radius: 2px;
+  color: #333;
+  font-family: inherit;
+  opacity: 1;
+}
+.form__input::-webkit-input-placeholder {
+  color: #333;
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(83, 103, 255, 0.7);
+}
+.form__input:invalid {
+  border-bottom: 1px solid rgba(83, 103, 255, 0.7);
+}
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  transform: translateY(-4rem);
+}
+.form__label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  color: #000;
+  display: block;
+  transition: all 0.3s;
+}
+
+.form__group {
+  margin-bottom: 0.2rem;
+}
+.form__textarea {
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-family: inherit;
+  color: #333;
+  width: 100%;
+  height: 10rem;
+  padding: 1.5rem 1rem;
+}
+
+.mybtn {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  border: 3px solid #00c496;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  position: relative;
+  cursor: pointer;
+  margin: 1rem 0.5rem;
+  text-decoration: none;
+}
+
+.mybtn:hover {
+  background: #00c496;
+  transition: 1s;
+}
