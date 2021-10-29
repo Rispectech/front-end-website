@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   border: none;
 }
@@ -143,7 +143,7 @@ h1 {
   color: #fff3f3;
   display: flex;
   flex-direction: column;
-  width: 14rem;
+  width: 20rem;
   border-radius: 10px;
   margin: 0.5rem 1rem;
   margin-bottom: 2%;
@@ -721,13 +721,13 @@ h1 {
   cursor: pointer;
 }
 .accordion-item-header::after {
-  content: '\002B';
+  content: "\002B";
   font-size: 2rem;
   position: absolute;
   right: 1rem;
 }
 .accordion-item-header.active::after {
-  content: '\2212';
+  content: "\2212";
 }
 .accordion-item-body {
   max-height: 0;
@@ -758,7 +758,7 @@ h1 {
 }
 .bg-img:after {
   position: relative;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   height: 100%;
@@ -782,7 +782,7 @@ h1 {
   font-size: 33px;
   font-weight: 600;
   margin: 0 0 35px 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .field {
   position: relative;
@@ -804,7 +804,7 @@ h1 {
   outline: none;
   color: #222;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .space {
   margin-top: 16px;
@@ -817,7 +817,7 @@ h1 {
   color: #222;
   display: none;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .pass-key:valid ~ .login-show {
   display: block;
@@ -829,12 +829,12 @@ h1 {
 .pass a {
   color: white;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .pass:hover a {
   text-decoration: underline;
 }
-.field input[type='submit'] {
+.field input[type="submit"] {
   background: #3498db;
   border: 1px solid #2691d9;
   color: white;
@@ -842,15 +842,15 @@ h1 {
   letter-spacing: 1px;
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.field input[type='submit']:hover {
+.field input[type="submit"]:hover {
   background: #2691d9;
 }
 .login {
   color: white;
   margin: 20px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .login-links {
   display: flex;
@@ -888,12 +888,12 @@ i span {
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .signup {
   font-size: 15px;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .signup a {
   color: #3498db;
